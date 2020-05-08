@@ -33,3 +33,9 @@
       </v-row>
     </v-container>
   </v-card>
+
+  new Vue({
+  el: '#app',
+  vuetify: new Vuetify(),
+  
+})

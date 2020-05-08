@@ -68,7 +68,7 @@
                 </v-img>
                 </v-card-title>
                   <v-card-actions>
-                  <v-card-text> This was for an UX/CC research walk 
+                  <v-card-text> This was for an UX/CC research walk. These aren't dolphins
                     </v-card-text>
                       </v-card-actions>
                 </v-card>
@@ -178,7 +178,11 @@
               Video CV
             </h3>
             <p id="videoDescription">
-              A video CV of me. Here I tell you a a story of myself. 
+              This is a 2 minute video CV. 
+              <br>
+              If you want to get to know in me in a fraction of the time.
+              <br>
+              You can see where come from, get the know the background, what my skils are, and what kind of employee you can expect form me.
             </p>
           </v-col>
         </v-row>
@@ -192,10 +196,17 @@
               Commercial project
             </h3>
             <p id="videoDescription">
-              This is a group project. The idea is that throughout the day, we often forget to drink. 
+              This is a group project. The idea is that throughout the day, we often forget to drink.
+              <br> 
               The project has to be at maximum 20 seconds. That mean that we have to somehow convey a product, a message, in a meaningful way that is easy to understand. 
-              
-
+              <br>
+              In 20 seconds, my team and I managed to squeeze an entire day what goes on in the world of this man.
+              See that he is active, keeps his focus in the workplace, has a date at night, and goes to bed tired. 
+              <br>
+              <br>
+              Filmmaker and editor: Johannes Olsen
+              <br>
+              Actor/actress: Raul Albu-Octavia & Suong Vo
 
             </p>
           </v-col>
@@ -209,6 +220,20 @@
           height="80vh"
           >
           <h3 id="aboutMeTitle">About me</h3>
+          <h4 id="aboutMeSubtitle">
+            Multimediadesigner, Film- and TV-Technician
+          </h4>
+          <p id="aboutMeText">
+            I am a multimediadesigner student, and graduated from Next København in Film and TV industry. 
+            <br>
+            I have an extensive experience in making short films, editing, news coverage, and as a live event cameraman.
+            <br>
+            <br>
+            You can click on the images to seem them in bigger window
+            <br>
+            Go to the top of the page and click on my instagram page and give me a follow, you weeb. 
+          </p>
+
         </v-img>
       </v-row>
       <!-- Email section 
@@ -291,14 +316,19 @@ export default {
   </script>
   -->
 <style>
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Comfortaa|Dancing+Script&display=swap');
 
 #videoTitle {
   padding: 25px;
   text-align: center;
+  font-family: 'Baloo 2', cursive;
+  font-size: 35px;
+  outline: darkgrey;
 }
 #videoDescription {
   padding: 25px;
+  font-family: 'Comfortaa', cursive;
+
 
 }
 #headerTitle {
@@ -317,9 +347,23 @@ export default {
 
 #aboutMeTitle {
   font-size: 45px;
-  padding: 75px;
+  padding: 35px 0px 15px 45px;
+  font-family: 'Baloo 2', cursive;
+}
+h4 {
+  padding: 0 0 0 45px;
+    font-family: 'Baloo 2', cursive;
+}
+#aboutMeText {
+  contain: content;
+  padding: 0 0 0 45px;
+  font-size: 15px;
+  font-family: 'Comfortaa', cursive;
+  text-shadow: white 1px 1px;
 }
 a {
   text-decoration: none;
 }
+
+
 </style>
