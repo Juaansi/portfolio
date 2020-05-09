@@ -12,9 +12,19 @@
         </v-app-bar-nav-icon>
         -->
         <v-spacer></v-spacer>
+        <a href="https://www.linkedin.com/in/juaansi/" target="blank">
+          <v-btn icon>
+            <v-icon>mdi-linkedin</v-icon>
+          </v-btn>
+        </a>
         <a href="https://www.instagram.com/juaansi/" target="blank">
           <v-btn icon>
             <v-icon>mdi-instagram</v-icon>
+          </v-btn>
+        </a>
+        <a href="https://www.youtube.com/channel/UC_L9Mp8CHkMQ2iYX3zuViwA" target="blank">
+          <v-btn icon>
+            <v-icon>mdi-youtube</v-icon>
           </v-btn>
         </a>
       </v-toolbar>
@@ -231,7 +241,7 @@
             <br>
             You can click on the images to seem them in bigger window
             <br>
-            Go to the top of the page and click on my instagram page and give me a follow, you weeb. 
+            Go to the top of the page and click on my LinkedIn
           </p>
 
         </v-img>
